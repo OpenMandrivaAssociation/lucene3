@@ -1,3 +1,4 @@
+%{?_javapackages_macros:%_javapackages_macros}
 %global majorversion 3
 
 Summary:        High-performance, full-featured text search engine
