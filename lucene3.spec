@@ -72,7 +72,7 @@ Requires:       jpackage-utils
 # remove all binary libs
 find . -name "*.jar" -exec rm -f {} \;
 
-tar xfs %{SOURCE4}
+tar xf %{SOURCE4}
 pushd dev-tools
 find . -name "pom.xml.template" -exec sed -i "s/@version@/%{version}/g" '{}' \;
 popd
