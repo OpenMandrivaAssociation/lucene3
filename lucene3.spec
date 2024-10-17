@@ -7,7 +7,7 @@ Version:        3.6.2
 Release:        5%{?dist}
 Epoch:          0
 License:        ASL 2.0 and BSD
-URL:            http://lucene.apache.org/
+URL:            https://lucene.apache.org/
 Source0:        https://archive.apache.org/dist/lucene/java/%{version}/lucene-%{version}-src.tgz
 Source1:        lucene-%{version}-core-OSGi-MANIFEST.MF
 Source2:        lucene-%{version}-analysis-OSGi-MANIFEST.MF
